@@ -1,0 +1,18 @@
+cat <<EOL > .gitignore
+# macOS 시스템 파일
+.DS_Store
+
+# Xcode 빌드 파일
+build/
+DerivedData/
+
+# Xcode workspace
+*.xcworkspace
+
+# Swift Package Manager
+/.build/
+
+# CocoaPods
+Pods/
+EOL
+
